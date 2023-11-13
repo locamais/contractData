@@ -225,6 +225,7 @@ app.delete("/delete-product/:id", async (req,res)=>{
     await Products.destroy({where: {id: req.params.id}})
 })
 
-app.listen(3500, ()=>{
+const port = process.env.PORT || 3000;
+app.listen(port, ()=>{
     console.log('Server Conected...')
 })
