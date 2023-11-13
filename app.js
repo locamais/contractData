@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const Clients = require('./models/client.js')
 const Products = require('./models/product.js')
-const Contracts = require('./models/Contract.js')
+const Contracts = require('./models/contract.js')
 const Client = require('./models/client.js')
 const app = express()
 
